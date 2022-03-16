@@ -1,0 +1,41 @@
+body{
+    font-size: 16px;
+    color: black;
+    font-family: cursive;
+    margin: 0;
+    text-align: center;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+
+/*enable menu when larger screen*/
+@media screen and (min-width: 992px){
+    .navbar-nav{
+        display: none;
+    }
+}
+
+h2{
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.text-content{
+    background: gray;
+    margin: 1em;
+}
+
+.title{
+    padding: 1em;
+    font-size: 24px;
+}
